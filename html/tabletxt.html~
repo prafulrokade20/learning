@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>TOURIST PLACES</title>
+</head>
+<body>
+<table border="2" align="center">
+<tr><th colspan ="2" style="font-size:25px;colour:#e754ca;background-colour:#00FFFF; height:60px;width:400px">
+TOURIST PLACES</th></tr>
+<tr>
+<td style="background-colour:#f0e68c;fontsize:25px;margin-top:0px;paddingleft:20px">
+<p><h3>CITY</h3></p>
+<ol>
+<li>PUNE</li>
+<li>BANGLORE</li>
+<li>DELHI</li>
+<li>MUMBAI</li>
+<li>muktainagar</li>
+</ol></td>
+<td style="background-colour:#ffa9e2;font-size25px;margin-top:0px;paddingleft:20px">
+<p><h3>TOURIST PLACES in PUNE</h3></p>
+<ul>
+<li> shanivarwada</li>
+<li> srimant daguseth halwai ganpati</li>
+<li>sinhgad fort</li>
+<li>India gate</li>
+<li>muktaibai temple</li>
+</ul></td></tr>
+</table></center></body>
+</html>
+
