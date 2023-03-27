@@ -1,0 +1,45 @@
+<!-question 2: frame>
+<! doctype.html>
+<html>
+<head>
+<title>Table</title>
+</head>
+<frameset rows="20%, *">
+<frame src ="a.html"/>
+<frame src ="b.html"/>
+</frameset>
+</html>
+a.html
+<!-doctype html>
+<html>
+<head>
+<title>frame 1</title>
+</head>
+<body>
+<h1><centre>BCA</centre></h1>
+</body>
+</html>
+<html>
+<head>
+<title>Frame 2</title>
+</head>
+<body>
+     <div name ="main_div">
+     <div name ="sub_div1" align = "left" height = "20">
+     <h1>FYBCA</h1>
+     </div>
+     <div name = "sub_div2" align = "right">
+     <font size = "5">
+    </ul>
+        <li>java</li>
+        <li>web technologies</li>
+        <li>oops</li>
+        <li>dot net</li>
+     </ul>
+</font>
+</div>
+</div>
+</body>
+</html>        
+     
+
