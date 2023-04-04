@@ -1,0 +1,62 @@
+a.css
+body
+{
+background-color:lightblue;
+}
+h1
+{
+color: navy;
+margin-left:20px;
+}
+frame.html
+<html><head><title>frame example</title>
+</head>
+<frameset rows="30%,*">
+<frame src="header.html"name="frame1">
+<frame set cols="30%,*">
+<frame src="link.html"name="frame2">
+<frame src="pune.html"name="frame3">
+</frameset>
+</frameset>
+</html>
+
+header.html
+<html>
+<body>
+<h1 align="center"><font color="red">online
+shopping</font></h1>
+</body>
+</html>
+
+links.html
+<html>
+<body>
+<b>item</b><br>
+<ol type="1">
+<li><a href="pune.html"target="frame3>shirt</a>
+</li><br>
+</ol>
+</body>
+</html>
+
+pune.html
+<html>
+<head><link rel="stylesheet"type=text/css"
+href="a.css"></head>
+<body><h3>shirt</h3>
+<ul type="disc"><li>price</li></ul>
+<img src="a.jpg"height="30%"width=40%">
+</body>
+</html>
+
+b.html
+<html>
+<head><link rel="stylesheet"type="text/css"
+href="a.css"</head>
+<body>
+<ol type="2">
+<h3>jeans</h3>
+<ul type="disc"<li>price</li></ul>
+<img src="a.jpg"height="30%"width="40%">
+</body>
+</html>
