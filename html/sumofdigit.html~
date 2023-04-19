@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+function sum_of_digit()
+{
+	var number1 = document.getElementById("number1").value;
+	var number2 = document.getElementById("number2").value;
+	var str1 = number1.toString();
+	var str2 = number2.toString();
+	var sum= 0;
+	for (var i = 0; i <str.length; i++)
+	{
+		sum = parseInt(str1.charAt(i), 10) + parseInt(str2.charAt(i), 10);
+	}
+	document.getElementById("result").innerHTML = sum;
+}
+</script>
+<hr>
+    <h2>sum of digit in Javascript </h2>
+<hr>
+<form>
+  enter a number1 <input type="text" id="number1" maxlength="10" size="10">
+  <br>
+  enter a number2 <input type="text" id="number2" maxlength="10" size="10">
+  <br>
+  <input type="button" onclick="sum_of_digit()" value="ok"
+  title="click here to find the total sum of digit of a number." />
+</form>
+<br>
+    <p>the total sum of digit is :
+    <span id = "result"></span>
+</p>
+</body>
+</html>
+
+
