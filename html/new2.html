@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunshine Event Management</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 1em;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+
+        .event-photos {
+            max-width: 100%;
+            height:auto;
+            border-radius: 8px;
+            margin-bottom: 1em;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+
+            background-color: #45a049;
+        }
+
+        #contactForm {
+            display: none;
+        }
+        
+        form {
+            text-align: left;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5em;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 1em;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+        color: white;
+        padding: 10px  15px;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;   
+    }
+
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sunshine Event Management</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to Sunshine Events!</h2>
+        <img src="https://thumbs.dreamstime.com/z/writing-note-showing-event-management-business-photo-showcasing-special-occasion-schedule-organization-arrange-activities-clothe-119909315.jpg?w=992" alt="Event Photo" class="event-photo">
+        <p>welocme to the sunshine events Management celebrate your happy moments with us and we help to decorate your happiness with us</p>
+        <button onclick="displayContactForm()">Contact Us</button>
+
+        <div id="contactForm" style="display: none;">
+            <h3>Contact Us</h3>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+       <p> &copy; 2023 Sunshine Event Management </p>
+        <p class="contact-info">Event Manager: diviya krihsagar | contact: 123456789</p>
+        <p class="contact-info">Event Manager helper: Harsh sutar | contact: 1234554321</p>
+    </footer>
+
+    <script>
+        function displayContactForm() {
+            var contactForm = document.getElementById("contactForm");
+            contactForm.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
